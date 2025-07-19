@@ -14,7 +14,7 @@ client = OpenAI(
 
 
 # Streamlit app title
-st.title("Joke Explainer")
+st.title("Joke Wisecracker")
 
 # Text box for user to input a joke
 joke_input = st.text_area("Enter your joke here:")
@@ -28,7 +28,7 @@ if st.button("Submit"):
             messages=[
                 {
                     "role": "user",
-                    "content": f"Explain this joke: {joke_input}",
+                    "content": f"Create a wity response for this joke: {joke_input}",
                 }
             ],
             model="gpt-4o-mini",
