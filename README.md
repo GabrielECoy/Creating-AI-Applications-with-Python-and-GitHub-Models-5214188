@@ -1,3 +1,5 @@
+# Initial Change
+
 # Creating AI Applications with Python and GitHub Models
 This is the repository for the LinkedIn Learning course `Creating AI Applications with Python and GitHub Models`. The full course is available from [LinkedIn Learning][lil-course-url].
 
