@@ -36,7 +36,7 @@ if st.button("Submit"):
 
             explanation = response.choices[0].message.content
             # Display the explanation
-            st.subheader("Explanation")
+            st.subheader("Wisecracker response")
             st.write(explanation)
         except Exception as e:
             st.error(f"An error occurred: {e}")
